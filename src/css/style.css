@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: var(--font-family);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-code-component {
+    background-color: var(--white);
+    max-width: 259px;
+    padding: 15px;
+    border-radius: 16px;
+}
+
+.qr-code-component .qr-code-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.qr-code-component .qr-code-title {
+    text-align: center;
+    line-height: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+}
+
+.qr-code-component .qr-code-paragrafy {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 15px;
+    margin-bottom: 40px;
+}
